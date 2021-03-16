@@ -68,7 +68,7 @@ namespace ADB_Lib
                     adbCommand("shell input keyevent KEYCODE_MEDIA_PLAY_PAUSE");
                     break;
                 case ConsoleKey.Enter:
-                    adbCommand("shell input keyevent KEYCODE_DPAD_CENTER");
+                    adbCommand("shell input keyevent 66");
                     break;
                 case ConsoleKey.A:
                     adbCommand("shell input keyevent 29");
